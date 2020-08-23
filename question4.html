@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     
 </head>
 <style>
     input[type=submit]
     {
-        background-color: black; 
-        color: #41FF00;
+        background-color: blue; 
+        color: #7C1F28
     }
 
     input[type=button]
     {
-        background-color: black; 
-        color: #41FF00;
+        background-color: blue; 
+        color: #7C1F28;
     }
 </style>
-<body style="font-family: 'Press Start 2P', cursive; color: #41FF00; background-color: black;" onload="startTime()">
+<body style="font-family: 'Click 2P', cursive; color: #7C1F28; background-color: blue;" onload="startTime()">
 
     <h2>Clock</h2>
 
@@ -42,8 +41,8 @@
 
     <input type="time" id="alarmtime" style="color: #41FF00; background-color: black;" onkeyup="stopAlarm()">
     <input type="submit" id="setalarm" value="Set Alarm"  onclick="setAlarmFunc()">
-    <audio src="http://www.dobomusic.com/superheroes/Harry%20Potter%20and%20the%20Sorcerer_s%20Stone%20Suite.mp3" id="alarmring"></audio>
-    <p id="alarmindicator" style="visibility: hidden;">Alarm ringing...</p>
+    <audio src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3" id="alarmring"></audio>
+    <p id="alarmindicator" style="visibility: hidden;">ringing</p>
     <br><br>
     <h2>Stop Watch</h2>
         <input type="button" onclick="startWatch()" value="START" />
